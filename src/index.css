@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+:root {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #64ffda;
+  --muted-color: #888;
+  --border-color: #333;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 2rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  color: var(--accent-color);
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: var(--muted-color);
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.25rem;
+  color: var(--accent-color);
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--muted-color);
+}
+
