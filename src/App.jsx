@@ -6,7 +6,7 @@ export default function App() {
     <main className="app">
       <header>
         <h1>Naveen S</h1>
-        <h2>Senior Software Engineer</h2>
+        <h2>Software Engineer</h2>
         <p>3 years of backend development experience</p>
       </header>
 
@@ -30,11 +30,14 @@ export default function App() {
           <li>
             <strong>Http lib(Go):</strong> writing(rewriting) the rules for http request parsing and routing. (this one is still in progress)
           </li>
+	  <li>
+	    <strong>Code pipeline (Go):</strong> A pipline to act on a push to a branch that will redeploy your container in a machine. (also work in progess)
+	  </li>
         </ul>
       </section>
 
       <footer>
-        <p>Contact: naveen@example.com</p>
+        <p>Contact: naveeeen3000@gmail.com</p>
       </footer>
     </main>
   );
